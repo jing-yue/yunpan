@@ -38,7 +38,7 @@ class InstallController extends Controller
             = 'https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl='
             .$redirect_uri.'&platform=option-php';
         $deepLink
-            = '/quickstart/graphIO?publicClientSupport=false&appName=OLAINDEX&redirectUrl='
+            = '/quickstart/graphIO?publicClientSupport=false&appName=OneIndex&redirectUrl='
             .$redirect_uri.'&allowImplicitFlow=false&ru='
             .urlencode($ru);
         $app_url = "https://apps.dev.microsoft.com/?deepLink="
