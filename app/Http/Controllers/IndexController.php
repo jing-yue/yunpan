@@ -284,6 +284,24 @@ class IndexController extends Controller
                     $file['dash'] = $replace
                         . "&part=index&format=dash&useScf=True&pretranscode=0&transcodeahead=0";
                 }
+                //添加字幕
+                if ($key==='video'||$key==='dash'){
+
+//                    $subtitles=explode(' ', Tool::config('subtitles'));
+//                    foreach($subtitles as $subtitle){
+//                        $subtitle_file = str_replace('.'.$file['ext'],'.'.$subtitle,$file['name']);
+//
+//                    }
+                    $video_subtitle = str_replace('.'.$file['ext'],'.vtt',$file['name']);
+                    //站点的绝对路径下的字幕文件位置
+                    $subtitles_url = Tool::config('subtitles_url').$video_subtitle;
+                    //服务器上的绝对路径
+                    $full_path = public_path().$subtitles_url;
+                    if (file_exists($full_path)){
+                        //写到file数组里面
+                        $file['subtitle']=Tool::config('subtitles_url').$video_subtitle;
+                    }
+                }
                 // 处理微软文档
                 if ($key === 'doc') {
                     $url = "https://view.officeapps.live.com/op/view.aspx?src="

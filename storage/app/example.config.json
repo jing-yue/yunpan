@@ -22,6 +22,8 @@
     "doc": "csv doc docx odp ods odt pot potm potx pps ppsx ppsxm ppt pptm pptx rtf xls xlsx",
     "code": "html htm css go java js json ts sh md php",
     "stream": "txt log",
+    "subtitle":"vtt",
+    "subtitles_url":"/subtitles/",
     "hotlink_protection": "",
     "copyright": "",
     "statistics": "",

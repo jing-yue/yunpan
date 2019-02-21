@@ -21,6 +21,18 @@
             <span class="form-text text-danger">不支持个人版账户</span>
         </div>
         <div class="form-group">
+            <label class="form-control-label" for="subtitle">字幕</label>
+            <input type="text" class="form-control" id="subtitle" name="subtitle"
+                   value="vtt" readonly>
+            <span class="form-text text-danger">暂只支持VTT格式字幕</span>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="subtitles_url">字幕存放地址</label>
+            <input type="text" class="form-control" id="subtitles_url" name="subtitles_url"
+                   value="{{ \App\Helpers\Tool::config('subtitles_url') }}">
+            <span class="form-text text-danger">填写服务器存放字幕的位置(从public作为根目录,比如/subtitles/)</span>
+        </div>
+        <div class="form-group">
             <label class="form-control-label" for="audio">音频</label>
             <input type="text" class="form-control" id="audio" name="audio"
                    value="{{ \App\Helpers\Tool::config('audio') }}">
