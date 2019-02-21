@@ -62,4 +62,9 @@
 composer install
 chmod -R 755 *
 chown -R www:www *
+cp .env.example .env
+php artisan key:generate
 ```
+
+## 注意
+需要开启PHP的`fileinfo`扩展,否则在`composer install`时会出错
