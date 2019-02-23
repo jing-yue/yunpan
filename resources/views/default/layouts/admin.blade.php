@@ -40,9 +40,6 @@
 
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}"><i class="fa fa-home"></i> 首页</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                        aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog"></i> 设置</a>
