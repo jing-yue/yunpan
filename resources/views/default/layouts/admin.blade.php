@@ -119,15 +119,6 @@
             @yield('content')
         </div>
     </div>
-    <footer id="footer">
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <p class="text-muted">
-                    Made by <a href="https://imwnk.cn">IMWNK</a>.
-                </p>
-            </div>
-        </div>
-    </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1/dist/umd/popper.min.js"></script>

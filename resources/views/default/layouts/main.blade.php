@@ -85,6 +85,13 @@
                 </p>
             </div>
         </div>
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <p class="text-muted">
+                    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+                </p>
+            </div>
+        </div>
     </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
@@ -94,6 +101,7 @@
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7/dist/sweetalert2.all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-lazyload@1/jquery.lazyload.min.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 @yield('js')
 {!! \App\Helpers\Tool::config('statistics') !!}
 <script>

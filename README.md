@@ -68,3 +68,4 @@ php artisan key:generate
 
 ## 注意
 需要开启PHP的`fileinfo`扩展,否则在`composer install`时会出错
+安装扩展可以参考[这里](https://www.guaosi.com/2019/02/22/install-php-fileinfo/)
