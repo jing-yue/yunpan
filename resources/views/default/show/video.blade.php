@@ -31,7 +31,7 @@
                     </video>
                 </div>
                 <br>
-                <p class="text-danger">如无法播放或格式不受支持，推荐使用 <a href="https://cloud.guaosi.com/home/%E5%BD%B1%E8%A7%86/%E6%92%AD%E6%94%BE%E5%99%A8/windows/PotPlayer" target="_blank">Potplayer(windows)</a> 或 <a href="https://cloud.guaosi.com/home/%E5%BD%B1%E8%A7%86/%E6%92%AD%E6%94%BE%E5%99%A8/mac" target="_blank">Movist(Mac)</a>
+                <p class="text-danger">如无法播放或格式不受支持，推荐使用 <a href="https://cloud.guaosi.com/home/Video/%E6%92%AD%E6%94%BE%E5%99%A8/windows/PotPlayer" target="_blank">Potplayer(windows)</a> 或 <a href="https://cloud.guaosi.com/home/Video/%E6%92%AD%E6%94%BE%E5%99%A8/mac" target="_blank">Movist(Mac)</a>
                     播放器在线播放
                 </p>
                 <label class="control-label">下载链接</label>
